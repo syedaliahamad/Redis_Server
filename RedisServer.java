@@ -113,7 +113,6 @@ public class RedisServer {
                     return "ERROR: seconds must be a number";
                 }
             }
-
             default:
                 return "ERROR: unknown command '" + command + "'";
         }
